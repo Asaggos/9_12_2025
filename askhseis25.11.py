@@ -10,4 +10,3 @@
 
 # leksh = whatVowels(input("Dwse leksh: "))
 # print ("".join(leksh))
-
