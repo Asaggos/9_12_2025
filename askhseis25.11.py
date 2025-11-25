@@ -12,20 +12,20 @@
 # print ("".join(leksh))
 
 
-#Askhsh 2
+# #Askhsh 2
 
-def wordScore(s):
-    vowels = {'a', 'e', 'i', 'o', 'u'}
-    mry = {'m','r','y'}
-    score = 0
-    for i in s:
-        if (i in vowels):
-            score += 2
-        elif i in mry:
-            score += 3
-        else:
-            score += 1
-    return score 
+# def wordScore(s):
+#     vowels = {'a', 'e', 'i', 'o', 'u'}
+#     mry = {'m','r','y'}
+#     score = 0
+#     for i in s:
+#         if (i in vowels):
+#             score += 2
+#         elif i in mry:
+#             score += 3
+#         else:
+#             score += 1
+#     return score 
 
-x = wordScore(input("Dwse akolouthia xarakthrwn: "))
-print ("Score= ",x)
+# x = wordScore(input("Dwse akolouthia xarakthrwn: "))
+# print ("Score= ",x)
